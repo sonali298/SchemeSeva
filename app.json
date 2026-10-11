@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SchemeSeva",
+    "slug": "SchemeSeva",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "schemeseva",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "your-project-id"
+      },
+      "EXPO_PUBLIC_SUPABASE_URL": "https://3final3.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IjNmaW5hbDMiLCJyb2xlIjoiYW5vbiIsImlhdCI6MTY3OTY5NjAwMCwiZXhwIjoxOTk1Mjc2MDAwfQ.0QYlXmGQlFzXmGQlFzXmGQlFzXmGQlFzXmGQlFz"
+    }
+  }
+}
